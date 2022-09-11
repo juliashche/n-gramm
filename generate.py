@@ -8,11 +8,6 @@ a = [i.strip() for i in a]
 for i in range(0, len(a)-1, 2):
     bigram[a[i]]=a[i+1]
 
-        
-        
-    
-
-
 #генерация
 print("Enter you first word")
 prefix=input()
